@@ -19,6 +19,7 @@ contacts.each do |key, value|
     date.delete("strawberry")
 
 end
+end
   #remember to return your newly altered contacts hash!
 end
 end
