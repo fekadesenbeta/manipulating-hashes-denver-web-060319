@@ -15,7 +15,7 @@ def first_challenge
 
 contacts.each do |key, value|
   value each do |value, attribute|
-  attribute.delete_if("strawberry")
+  value.delete_if("strawberry")
 end
     
 return favorite_icecream_flavors
