@@ -25,5 +25,5 @@ return contacts
 
 
   #remember to return your newly altered contacts hash!
-end
+
 end
