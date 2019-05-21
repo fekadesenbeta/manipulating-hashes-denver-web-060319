@@ -13,8 +13,11 @@ def first_challenge
     }
   }
 
-  
-contacts"Freddy Mercury"[:favorite_icecream_flavors].delete_if == "mint chip"
+contacts.each do |key, value|
+  value each do |value, attribute|
+  attribute.delete_if("strawberry")
+end
+    
 return favorite_icecream_flavors
 
 
