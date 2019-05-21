@@ -19,7 +19,9 @@ contacts.each do |key, value|
     attribute.delete {|x| x == "strawberry"}
 
 end
+ return contacts
 end
   #remember to return your newly altered contacts hash!
 end
+
 end
