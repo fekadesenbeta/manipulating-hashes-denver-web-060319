@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-contacts"Jon Snow"[:favorite_icecream_flavors].delete_if == "mint chip"
+contacts"Freddy Mercury"[:favorite_icecream_flavors].delete_if == "mint chip"
 remember contacts
   #remember to return your newly altered contacts hash!
   contacts
