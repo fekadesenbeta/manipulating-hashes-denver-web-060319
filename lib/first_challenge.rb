@@ -18,7 +18,7 @@ contacts.each do |key, value|
   if date == :favorite_icecream_flavors
     date.delete("strawberry")
 
-
+end
   #remember to return your newly altered contacts hash!
 end
 end
