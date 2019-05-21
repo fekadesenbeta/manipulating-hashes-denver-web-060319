@@ -18,7 +18,7 @@ contacts.each do |key, value|
   value.delete_if(x == "strawberry")
 end
     
-return favorite_icecream_flavors
+return contacts
 
 
   #remember to return your newly altered contacts hash!
