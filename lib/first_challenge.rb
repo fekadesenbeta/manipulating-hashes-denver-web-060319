@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 contacts.each do |person, data|
-  date. each do |attribute, info|
+  date.each do |attribute, info|
     if attribute == :favorite_icecream_flavors
       info.delete('strawberry')
     end
@@ -22,4 +22,5 @@ return contacts
  
 end
 end
+
 
