@@ -13,11 +13,11 @@ def first_challenge
     }
   }
 contacts.each do |person, data|
-  date.each do |attribute, info|
+  date.each do |attribute, value|
     if attribute == :favorite_icecream_flavors
-      info.each do |flavor|
+      value.each do |flavor|
         if flavor == "strawberry"
-          info.delete(flavor)
+          value.delete(flavor)
     end
   end
 return contacts
@@ -27,3 +27,15 @@ end
 end
 
 
+
+#contacts.each do |person, data|
+  data.each do |attribute, value|
+    if attribute == :favorite_icecream_flavors
+      value.each do |flavor|
+        if flavor == "strawberry"
+        value.delete(flavor)
+      end
+end
+  end
+end
+end
