@@ -18,7 +18,7 @@ contacts.each do |person, data|
       info.delete('strawberry')
     end
   end
-
+return contacts
  
 end
 end
