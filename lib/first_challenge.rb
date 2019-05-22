@@ -19,7 +19,7 @@ contacts.each do |person, date|
       value.each do |flavor|
         if flavor == "strawberry"
           value.delete(flavor)
-            puts flavor
+            puts "#{flavor}
      end
     end
    end
