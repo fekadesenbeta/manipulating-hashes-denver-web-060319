@@ -20,10 +20,10 @@ contacts.each do |person, data|
           value.delete(flavor)
     end
   end
- contacts
+ 
  end
 end
-end
+contacts
 end
 
 
