@@ -23,11 +23,7 @@ def first_challenge
 end
   end
 end
-
-
-
-
-contacts
+return contacts
 end
 end
 
