@@ -20,8 +20,8 @@ contacts.each { |person, data|
         value.delete(flavor)
 }
 }
-    end
-  end
+    
+  
 end
 end
 
