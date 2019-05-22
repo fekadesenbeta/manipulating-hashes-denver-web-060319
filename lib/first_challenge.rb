@@ -14,9 +14,9 @@ def first_challenge
   }
 
 contacts.each do |key, value|
-  value.each do |flavor|
+  value.each do |attribute, element|
  if attribute == :favorite_icecream_flavors
-      value.each do |flavor|
+      item.each do {|flavor| fl
         
 end
  return contacts
